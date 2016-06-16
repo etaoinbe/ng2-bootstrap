@@ -7,11 +7,11 @@ import { DROPDOWN_DIRECTIVES } from 'ng2-bootstrap/components/dropdown';
 
 ```html
 <!-- dropdown directive marks a dropdown root element -->
-<div dropdown-text>
+<div dropdown>
   <!-- click on dropdown-toggle toogles dropdown state, optional -->
-  <div dropdownToggle-text></div>
+  <div dropdownToggle></div>
   <!-- dropdown-menu holds content which will be shown -->
-  <div dropdownMenu-text>
+  <div dropdownMenu>
     <!-- this content will be shown if dropdown opened -->
   </div>
 </div>

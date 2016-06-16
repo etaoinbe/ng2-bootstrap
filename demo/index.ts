@@ -28,7 +28,7 @@ if (w && w.__theme === 'bs4') {
 let tmp = require('./demo.template.html');
 
 @Component({
-  selector: 'app',
+  selector: 'demo',
   template: tmp,
   directives: [RouterOutlet, TopMenuComponent, MainMenuComponent]
 })
